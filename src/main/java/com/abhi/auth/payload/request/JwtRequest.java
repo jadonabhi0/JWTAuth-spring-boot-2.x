@@ -1,4 +1,4 @@
-package com.abhi.auth.model;/*
+package com.abhi.auth.payload.request;/*
     @author jadon
 */
 
@@ -6,13 +6,14 @@ import lombok.*;
 
 @Getter
 @Setter
-@ToString
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class JwtResponse {
+@Builder
+@ToString
+public class JwtRequest {
 
     private String userName;
 
-    private String jwtToken;
+    private String password;
+
 }

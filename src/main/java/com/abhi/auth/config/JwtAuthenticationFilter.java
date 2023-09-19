@@ -92,6 +92,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         }
 
 
+        // if everything is alright then allow access
         filterChain.doFilter(request, response);
     }
 }

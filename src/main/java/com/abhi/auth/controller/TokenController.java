@@ -2,8 +2,8 @@ package com.abhi.auth.controller;/*
     @author jadon
 */
 
-import com.abhi.auth.model.JwtRequest;
-import com.abhi.auth.model.JwtResponse;
+import com.abhi.auth.payload.request.JwtRequest;
+import com.abhi.auth.payload.response.JwtResponse;
 import com.abhi.auth.service.CustomUserDetailService;
 import com.abhi.auth.utils.JwtUtils;
 import org.slf4j.Logger;

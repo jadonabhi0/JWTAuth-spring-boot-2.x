@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/home")
+
 public class HomeController {
+
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ResponseEntity<String> welcomeHome(){
